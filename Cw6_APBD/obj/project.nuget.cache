@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "XLbtsn8E2gnE2AP6NHDt/P2KQqDfpEDVQrDw5ooJVJCA0ZZFzjRhsw+E3zgxp0qdJiXMld0M08zMXAo0k9mTyg==",
+  "dgSpecHash": "FNJy3lumVuP1UpgISLPzg13MlniiN3ZDyotY6GfkA+pL/ee3b5GFhV1QUc9xLD4bpT/eCF+i+ZMdQZaLERpEUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Wygrany\\Desktop\\Krzyś\\PJWSTK\\VI semestr\\APBD\\Zajęcia 5 i 6\\Cw6\\Cw6_APBD\\Cw6_APBD.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Wygrany\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Wygrany\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
+    "C:\\Users\\Wygrany\\.nuget\\packages\\swashbuckle.aspnetcore\\5.4.1\\swashbuckle.aspnetcore.5.4.1.nupkg.sha512",
+    "C:\\Users\\Wygrany\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.4.1\\swashbuckle.aspnetcore.swagger.5.4.1.nupkg.sha512",
+    "C:\\Users\\Wygrany\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.4.1\\swashbuckle.aspnetcore.swaggergen.5.4.1.nupkg.sha512",
+    "C:\\Users\\Wygrany\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.4.1\\swashbuckle.aspnetcore.swaggerui.5.4.1.nupkg.sha512"
+  ],
   "logs": []
 }
