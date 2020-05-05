@@ -6,8 +6,11 @@ using Cw6_APBD.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cw6_APBD.Controllers
+
+        //https://localhost:44316/students
+
 {
-    [Route("api/[controller]")]
+    [Route("students")]
     [ApiController]
     public class StudentsController : ControllerBase
     {
@@ -24,9 +27,9 @@ namespace Cw6_APBD.Controllers
                 //dbService.GetStudents();
 
 
-                new Student { IdStudent = 1, FirstName = "Jan", LastName = "Kowalski" };
-                new Student { IdStudent = 2, FirstName = "Andrzej", LastName = "Malewicz" };
-                new Student { IdStudent = 3, FirstName = "Krzysztof", LastName = "Andrzejewicz" };
+                list.Add(new Student { IdStudent = 1, FirstName = "Jan", LastName = "Kowalski" });
+                list.Add(new Student { IdStudent = 2, FirstName = "Andrzej", LastName = "Malewicz" });
+                list.Add(new Student { IdStudent = 3, FirstName = "Krzysztof", LastName = "Andrzejewicz" });
 
             }
             catch (Exception exception)

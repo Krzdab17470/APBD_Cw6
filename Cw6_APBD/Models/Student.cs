@@ -13,5 +13,7 @@ namespace Cw6_APBD.Models
 
         public string LastName { get; set; }
 
+        public string Index { get; set; }
+
     }
 }

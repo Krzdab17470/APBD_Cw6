@@ -10,6 +10,6 @@ namespace Cw6_APBD.Services
     {
         public IEnumerable<Student> GetStudents();
 
-    
+        public Student GetStudent(string index);
     }
 }

@@ -8,9 +8,6 @@ C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_AP
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.RazorTargetAssemblyInfo.cache
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\staticwebassets\Cw6_APBD.StaticWebAssets.Manifest.cache
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\staticwebassets\Cw6_APBD.StaticWebAssets.xml
-C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.csproj.CoreCompileInputs.cache
-C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\Cw6_APBD.deps.json
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\Cw6_APBD.runtimeconfig.json
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\Cw6_APBD.runtimeconfig.dev.json
@@ -24,3 +21,12 @@ C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_AP
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.dll
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.pdb
 C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.genruntimeconfig.cache
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.csproj.CoreCompileInputs.cache
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Wygrany\Desktop\Krzyś\PJWSTK\VI semestr\APBD\Zajęcia 5 i 6\Cw6\Cw6_APBD\obj\Debug\netcoreapp3.1\Cw6_APBD.MvcApplicationPartsAssemblyInfo.cache
