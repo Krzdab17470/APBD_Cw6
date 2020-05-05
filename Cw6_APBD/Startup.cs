@@ -45,6 +45,7 @@ namespace Cw6_APBD
             }
 
             // Enable middleware to serve generated Swagger as a JSON endpoint.
+            //2. Dodawanie dokumentacji krok 2
             app.UseSwagger();
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
@@ -52,6 +53,8 @@ namespace Cw6_APBD
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
+
+            //.. uwierzytelnienie tutaj
 
             app.UseHttpsRedirection();
 
