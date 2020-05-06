@@ -7,7 +7,7 @@ namespace Cw6_APBD.Models
 {
     public class Student
     {
-        public int IdStudent { get; set; }
+        //public int IdStudent { get; set; }
 
         public string FirstName { get; set; }
 

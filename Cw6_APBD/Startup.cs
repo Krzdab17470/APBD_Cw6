@@ -60,22 +60,29 @@ namespace Cw6_APBD
             //.. uwierzytelnienie tutaj:
             app.Use(async(context, next) =>
             {
-                if(!context.Request.Headers.ContainsKey("Index"))
+                if(!context.Request.Headers.ContainsKey("Index") || context.Request.Headers["Index"].ToString() == "")
                 {
                     context.Response.StatusCode = StatusCodes.Status401Unauthorized;
                     await context.Response.WriteAsync("Musisz podac numer indeksu.");
                     return; //short circuit
                 }
+
                 string index = context.Request.Headers["Index"].ToString();
 
                 //...sprawdzic czy istnieje w bazie danych... wyrzucimy to do metody w klasie IStudentDbService
-                var stud = service.GetStudent("s1111");
+                var stud = service.GetStudent(index);
                 if (stud==null)
                 {
                     //... zwrocic blad 401..
                     context.Response.StatusCode = StatusCodes.Status404NotFound;
                     await context.Response.WriteAsync("Student not found.");
                     return; //short circuit
+                } 
+                else if (stud != null)
+                {
+                    context.Response.StatusCode = StatusCodes.Status200OK;
+                    await context.Response.WriteAsync("Student found.");
+                    return;
                 }
 
 

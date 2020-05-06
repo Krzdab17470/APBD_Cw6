@@ -27,9 +27,9 @@ namespace Cw6_APBD.Controllers
                 //dbService.GetStudents();
 
 
-                list.Add(new Student { IdStudent = 1, FirstName = "Jan", LastName = "Kowalski" });
-                list.Add(new Student { IdStudent = 2, FirstName = "Andrzej", LastName = "Malewicz" });
-                list.Add(new Student { IdStudent = 3, FirstName = "Krzysztof", LastName = "Andrzejewicz" });
+                list.Add(new Student { Index = "1", FirstName = "Jan", LastName = "Kowalski" });
+                list.Add(new Student { Index = "2", FirstName = "Andrzej", LastName = "Malewicz" });
+                list.Add(new Student { Index = "3", FirstName = "Krzysztof", LastName = "Andrzejewicz" });
 
             }
             catch (Exception exception)
@@ -42,7 +42,7 @@ namespace Cw6_APBD.Controllers
         [HttpGet("{id}")]
         public IActionResult GetStudent(int id)
         {
-            return Ok(new Student { IdStudent = 2, FirstName = "Andrzej", LastName = "Malewski" });
+            return Ok(new Student { Index = "2", FirstName = "Andrzej", LastName = "Malewski" });
         }
 
     }
