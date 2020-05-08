@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Cw6_APBD",
-    "\\Cw6_APBD\\Controllers"
+    "\\Cw6_APBD\\Controllers",
+    "\\Cw6_APBD\\Middleware"
   ],
-  "SelectedNode": "\\Cw6_APBD\\Controllers\\StudentsController.cs",
   "PreviewInSolutionExplorer": false
 }

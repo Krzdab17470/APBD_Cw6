@@ -7,10 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Cw6_APBD.Controllers
 
-        //https://localhost:44316/students
+        //https://localhost:44316/api/students  (z 'Index' w headerze)
 
 {
-    [Route("students")]
+    [Route("api/students")]
     [ApiController]
     public class StudentsController : ControllerBase
     {

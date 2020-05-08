@@ -1,0 +1,4 @@
+Path: /api/students, Method: GET, Querry: .
+Body: System.IO.StreamReader
+Path: /api/students, Method: GET, Querry: .
+Body: System.IO.StreamReader

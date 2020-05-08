@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Cw6_APBD.Middleware;
 using Cw6_APBD.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -11,6 +12,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Http.Logging;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
@@ -57,7 +59,11 @@ namespace Cw6_APBD
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
 
+            //..implementujemy nasze middleware ktore loguje wydarzenia
+            app.UseMiddleware<LoggingMiddleware>();
+
             //.. uwierzytelnienie tutaj:
+            //..context super wazny bo wstrzykujemy przez niego metode getStudent itp.
             app.Use(async(context, next) =>
             {
                 if(!context.Request.Headers.ContainsKey("Index") || context.Request.Headers["Index"].ToString() == "")
